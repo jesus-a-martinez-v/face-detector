@@ -27,4 +27,5 @@ python detect_faces.py --face cascades/haarcascade_frontalface_default.xml --ima
 ```
 
 You'll get a result like this:
+
 ![Obama's face](http://datasmarts.net/wp-content/uploads/2019/05/obama.png)
