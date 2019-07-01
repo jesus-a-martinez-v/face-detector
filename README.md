@@ -23,9 +23,9 @@ pip install -r requirements.txt
 At the root of the project, execute the following command to get a taste of how it works:
 
 ```bash
-python detect_faces.py --face cascades/haarcascade_frontalface_default.xml --image images/obama.png
+python detect_faces.py --face cascades/haarcascade_frontalface_default.xml --image images/jesus.png
 ```
 
 You'll get a result like this:
 
-![Obama's face](http://datasmarts.net/wp-content/uploads/2019/05/obama.png)
+![Obama's face](https://github.com/jesus-a-martinez-v/face-detector/blob/master/images/jesus_detected.png)
