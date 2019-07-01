@@ -23,7 +23,10 @@ class FaceDetector(object):
         must have to be taken into consideration. Windows that fail this size test will be discarded.
         :return: A list of rectangles of possible detections.
         """
-        rectangles = self.face_cascade.detectMultiScale(image, scaleFactor=scale_factor, minNeighbors=min_neighbors,
-                                                        minSize=min_size, flags=cv2.CASCADE_SCALE_IMAGE)
+        rectangles = self.face_cascade.detectMultiScale(image,
+                                                        scaleFactor=scale_factor,
+                                                        minNeighbors=min_neighbors,
+                                                        minSize=min_size,
+                                                        flags=cv2.CASCADE_SCALE_IMAGE)
 
         return rectangles
